@@ -49,7 +49,6 @@ public class ContatoController {
 	@GetMapping("/contatos/{idcontato}")
 	public ResponseEntity <ContatoDTO> getContatoById(@PathVariable("idcontato") Long idcontato) {
 		return ResponseEntity.ok(service.consultarContatoPorId(idcontato));
-		//return ResponseEntity.status(HttpStatus.OK).body(repo.findById(idcontato).get());
 	}
 	
 	@PostMapping ("/contatos")
