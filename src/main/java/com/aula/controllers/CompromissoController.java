@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.aula.entidades.Compromisso;
 import com.aula.repository.CompromissoRepository;
-import com.aula.repository.ContatoRepository;
 import com.aula.services.CompromissoService;
 
 @RestController
